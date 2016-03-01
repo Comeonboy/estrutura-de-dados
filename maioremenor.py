@@ -1,4 +1,3 @@
-import time
 
 def maxmin(seq):
     if len(seq)==0:
@@ -22,7 +21,4 @@ def maioremenor(tamanho, seq):
 
     return maior, menor;
 
-seq = [5, 0, 134, 45, 6, 21, 23]
-maior, menor = maxmin(seq)
-print(maior, menor)
     
