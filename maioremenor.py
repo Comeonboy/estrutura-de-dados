@@ -1,5 +1,5 @@
 
-def maxmin(seq):
+def max_min(seq):
     if len(seq)==0:
         return maior, menor
     if len(seq)==1:
