@@ -1,3 +1,9 @@
+'''
+O tempo de execução e a memória são O(n) porque aumenta de acordo com o tamanho da String
+
+'''
+
+
 import unittest
 
 class Pilha():
