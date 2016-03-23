@@ -1,6 +1,6 @@
 import unittest
 
-#O(n²) para tempo de execução e O(1) para memória
+#O(n²) para tempo de execução e O(1) para memória, no pior caso
 
 def bubble_sort(seq):
     n = len(seq) - 1
@@ -9,6 +9,9 @@ def bubble_sort(seq):
         for j in range(n):
             if seq[j]>seq[j+1]:
                 seq[j+1], seq[j] = seq[j], seq[j+1]
+        if flag == 0:
+            break;
+        flag = 0;
     return seq
 
 class OrdenacaoTestes(unittest.TestCase):
