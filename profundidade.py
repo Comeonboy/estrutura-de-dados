@@ -31,7 +31,7 @@ class Arvore:
         return altura
 
     def __iter__(self):
-        if self.raiz == None:
+        if self.raiz is None:
             return self.raiz
 
         pilha = []
